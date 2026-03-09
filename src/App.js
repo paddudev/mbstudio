@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import logo from './Images/MB_logo.PNG';
 
 // --- SUB-COMPONENTS ---
 
@@ -118,7 +119,7 @@ const Contact = () => {
     <div className="content-section">
       <div style={{textAlign: 'center', marginBottom: '30px'}}>
         <h2>Contact & Booking</h2>
-        <p>📍 123 Studio Street, Creative City, NY 10001 | 📞 +1 (555) 000-1111</p>
+        <p>📍 Aland Bazar, Kalburgi, Karnataka - India 585302 | 📞 +91 94821 11185</p>
       </div>
 
       <form className="contact-container" onSubmit={handleSubmit}>
@@ -185,7 +186,9 @@ export default function App() {
   return (
     <div className="app-container">
       <nav className="navbar">
-        <div className="brand-logo" onClick={() => setView('Home')}>MB-Studio</div>
+        <div className="brand-logo" onClick={() => setView('Home')}>
+          <img src={logo} style={{width:160, height:40, borderRadius:10}} />
+        </div>
         <ul className="nav-links">
           {['Home', 'Portfolio', 'Gallery', 'About Us', 'Contact'].map(item => (
             <li key={item} onClick={() => setView(item)} style={{fontWeight: view === item ? 'bold' : 'normal'}}>

@@ -61,7 +61,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 80px;
-  background-color: #d3d3d3; /* Light Grey */
+  background-color: #a9a9a9; /* Dark Grey */
   /* Curved effect at the bottom */
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -156,7 +156,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 60px;
-  background-color: #d3d3d3;
+  background-color: #a9a9a9;
   color: #333;
   display: flex;
   justify-content: center;
@@ -167,7 +167,7 @@ body, html {
 /* --- Home Slider --- */
 .slider-container {
   width: 100%;
-  height: 400px;
+  height: 450px;
   overflow: hidden;
   border-radius: 15px;
   position: relative;
@@ -187,7 +187,7 @@ body, html {
 }
 .tab-btn {
   padding: 10px 20px;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #a9a9a9;
   background: white;
   cursor: pointer;
 }
